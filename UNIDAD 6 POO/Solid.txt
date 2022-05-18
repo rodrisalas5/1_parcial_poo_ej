@@ -1,0 +1,35 @@
+Son 5 principios de POO.
+Hace que el codigo sea escalable y mantenible en el tiempo.
+Nos ayuda a eliminar las cosas malas del diseno.
+
+1. Responsabilidad unica
+
+Se suele incumplir cuando en una misma clase estan involucradas varias capas de la
+arquitectura. Ej definimos como atributo a otra clase.
+Es correcto cuando pasamos una clase como parametro y no la definimos como un atributo.
+Mejor hacer las clases mas simples. No instanciar objetos dentro de las clases.
+No darle responsabilidad a la clase que no corresponde.
+
+2. Abiero/Cerrado
+
+Abierto a la extension: ser capaz de anadir nuevas funciones.
+Cerrado a modificacion: quiere decir que para anadir la nueva funcionalidad no tienes
+que cambiar el codigo que ya esta escrito.
+
+3. Sustitucion Lisvok
+
+Como se debe usar correctamente la herencia y polimorfismo.
+Utilizar la menor cantidad de metodos, usar bien la clase padre para que las heredadas 
+puedan utilizar esos metodos.
+
+4. Segregacion de interfaz
+
+Ninguna clase debe depender de metodos que no se usan.
+Si un objeto tiene una clase debemos estar seguro que la va a necesitar.
+Es mejor tener clases pequena donde si utilizaremos sus metodos.
+No poner clases que no utilizaran todos los metodos.
+
+5. Dependencia
+
+Depende la abstraccion. La abstraccion depende de ella misma.
+
